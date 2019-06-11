@@ -1,8 +1,8 @@
-def factorial(x):
-    if x == 0:
-        return 1
-    else:
-        return x * factorial(x - 1)
+def multiples(num):
+    x = 1
+    while x <= 5:
+        print(num*x)
+        x = x + 1
 
-print(factorial(6))
 
+print(multiples(3))
