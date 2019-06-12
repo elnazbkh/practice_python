@@ -6,3 +6,4 @@ def multiples(num):
 
 
 print(multiples(3))
+
